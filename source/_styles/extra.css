@@ -63,6 +63,9 @@ a[x-apple-data-detectors] {
 .row-bottom-border{
   border-bottom: 1px solid #dbe3e9;
 }
+.custom-dark-grey{
+  color: #4B5359;
+}
 .line-wrapper{
   display:flex;
   justify-content:space-between;
