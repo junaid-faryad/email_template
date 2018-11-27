@@ -34,7 +34,7 @@
             <tr>
               <th>
                 <div class="text-left">
-                  <span><img src="img/airplane-7-16.png"  width='13' alt=""> </span>
+                  <span><img src="img/plane.png"  width='13' alt=""> </span>
                   <span class="m-0 pl-8 text-lg text-left font-normail grey-color">Departure</span>
                 </div>
               </div>
@@ -47,7 +47,7 @@
               <span class="text-base font-semibold purple-color">San Francisco - 6:00am - Flight AA5764 </span>
             </td>
             <td>
-              <span><img src="img/cancel.png" width='10' alt=""> </span>
+              <span><img src="img/cancel.png" width='13' alt=""> </span>
               <span class="text-sm grey-color">Seat Selection</span>
             </td>
           </tr>
@@ -56,7 +56,7 @@
               <span class="text-xs font-semibold custom-dark-grey">Mon, Dec 10, 2018 -1h 0m </span>
             </td>
             <td>
-              <span class="text-right"><img src="img/check-mark.png" width='10' alt=""> </span>
+              <span class="text-right"><img src="img/check-mark.png" width='13' alt=""> </span>
               <span class="text-sm text-right grey-color">Carry-on bag</span>
             </td>
           </tr>
@@ -65,7 +65,7 @@
               <span class="text-xs font-normal grey-color">San Francisco Intl. (SFO) to Los Angeles Intl. (LAX) </span>
             </td>
             <td>
-              <span class="text-right"><img src="img/dollar-sign.png" width='10' alt=""> </span>
+              <span class="text-right"><img src="img/dollar-sign.png" width='13' alt=""> </span>
               <span class="text-sm text-right grey-color">Checked Bag</span>
             </td>
           </tr>
@@ -74,7 +74,7 @@
               <span class="text-xs font-normal grey-color">Economy / Coach (E)</span>
             </td>
             <td>
-              <span class="text-right"><img src="img/cancel.png" width='10' alt=""> </span>
+              <span class="text-right"><img src="img/cancel.png" width='13' alt=""> </span>
               <span class="text-sm text-right grey-color">Cancellations</span>
             </td>
           </tr>
@@ -83,7 +83,7 @@
               <span class="text-xs font-normal grey-color">Boeign 717 </span>
             </td>
             <td>
-              <span class="text-right"><img src="img/cancel.png" width='10' alt=""> </span>
+              <span class="text-right"><img src="img/cancel.png" width='13' alt=""> </span>
               <span class="text-sm text-right grey-color">Changes</span>
             </td>
           </tr>
@@ -92,7 +92,7 @@
               <span class="text-sm font-bold custom-dark-grey">Los Angeles - 07:00am </span>
             </td>
             <td>
-              <span><img src="img/check-mark.png" width='10' alt=""> </span>
+              <span><img src="img/check-mark.png" width='13' alt=""> </span>
               <span class="text-sm grey-color">Personal Item</span>
             </td>
             <tr>
@@ -163,7 +163,7 @@
             <td class="pl-16">
               <p class="m-0 pt-2 font-semibold text-left text-base purple-color">London</p>
             </td>
-            <td class="m-0"><img src="img/next-arrow-24.png" alt=""></td>
+            <td class="m-0"><img src="img/next-arrow-24.png" width='13' alt=""></td>
             <td> <p class="m-0 pt-2 font-semibold text-base purple-color">San Francisco</p></td>
           </tr>
         </thead>
@@ -195,7 +195,7 @@
             <span class="text-xs font-semibold grey-color">Fri, Dec 14, 2018 -14h 0m </span>
           </td>
           <td>
-            <span class="text-right"><img src="img/check-mark.png" width='10' alt=""> </span>
+            <span class="text-right"><img src="img/check-mark.png" width='13' alt=""> </span>
             <span class="text-sm text-right grey-color">Carry-on bag</span>
           </td>
         </tr>
@@ -204,7 +204,7 @@
             <span class="text-xs font-normal grey-color">London Heathrow Intl. (LHR) to San Francisco Intl. (SFO) </span>
           </td>
           <td>
-            <span class="text-right"><img src="img/dollar-sign.png" width='10' alt=""> </span>
+            <span class="text-right"><img src="img/dollar-sign.png" width='13' alt=""> </span>
             <span class="text-sm text-right grey-color">Checked Bag</span>
           </td>
         </tr>
@@ -213,7 +213,7 @@
             <span class="text-xs font-normal grey-color">Economy / Coach (E)</span>
           </td>
           <td>
-            <span class="text-right"><img src="img/cancel.png" width='10' alt=""> </span>
+            <span class="text-right"><img src="img/cancel.png" width='13' alt=""> </span>
             <span class="text-sm text-right grey-color">Cancellations</span>
           </td>
         </tr>
@@ -222,7 +222,7 @@
             <span class="text-xs font-normal grey-color">Boeign 717 </span>
           </td>
           <td>
-            <span class="text-right"><img src="img/cancel.png" width='10' alt=""> </span>
+            <span class="text-right"><img src="img/cancel.png" width='13' alt=""> </span>
             <span class="text-sm text-right grey-color">Changes</span>
           </td>
         </tr>
