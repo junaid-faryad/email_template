@@ -74,7 +74,7 @@
             </table>
             <!-- Your Traverler Ended -->
             <!-- Summary of Charges Started -->
-            <table class="w-full bg-white confirmation_numbers pb-32" cellpadding="0" cellspacing="0" role="presentation">
+            <table class="w-full bg-white confirmation_numbers" cellpadding="0" cellspacing="0" role="presentation">
               <tbody class="grey_wrapper_table">
                 <tr>
                   <td class="pt-12 pb-12 pl-16 m-0 leading-20 h-20 text-left text-xl purple-color"> Summary of Charges </td>
@@ -110,26 +110,26 @@
             <!-- Summary of Charges Ended -->
             <table class="w-full pt-24 bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
               <tr>
-                <td class="px-24">
+                <td class="pl-32">
                   <p class="text-lg font-bold purple-color"> Need to Know</p>
                 </td>
               </tr>
               <tr>
-                <td class="pl-24 pr-24 grey-color">
-                  <p class="m-0 text-left text-base all-text-justify"> $656.00 will be refunded by the Americal Airlines to the original form of Payment with 7-10 business days.</p>
-                  <p class="pt-8 text-left text-base all-text-justify"> To refund additional services,  such as baggage fees or seat assignments fees, please American Airlines directly.</p>
+                <td class="pl-32 pr-32 grey-color">
+                  <p class="m-0 text-left text-lg font-medium all-text-justify leading-20"> $656.00 will be refunded by the Americal Airlines to the original form of Payment within 7-10 business days.</p>
+                  <p class="pt-4 text-left text-lg font-medium all-text-justify leading-20"> To refund additional services, such as baggage fees or seat assignments fees, please contact American Airlines directly.</p>
                 </td>
               </tr>
             </table>
             <table class="w-full pb-20 bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
               <tr>
-                <td class="pl-24">
+                <td class="pl-32">
                   <p class="purple-color text-lg font-bold mb-0"> Need Help? </p>
                 </td>
               </tr>
               <tr>
-                <td class="pl-24 pr-24 grey-color">
-                  <p class="text-left text-base all-text-justify"> We are here to 24/7. Feel free to email us at <span class="footer_link_color">support@fly.me</span> For any questions or concerns, call us 1 (540)328-6206. You can also get answers to top questions in our <span class="footer_link_color"> FAQ's </span></p>
+                <td class="pl-32 pr-32 grey-color">
+                  <p class="text-left text-lg font-medium all-text-justify leading-20"> We are here 24/7. Feel free to email us at <span class="footer_link_color pr-8">support@fly.me</span>   For any questions or concerns, call us 1 (540)328-6206. You can also get answers to top questions in our <span class="footer_link_color"> FAQ's </span></p>
                 </td>
               </tr>
             </table>
