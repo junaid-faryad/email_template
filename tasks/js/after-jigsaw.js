@@ -20,7 +20,7 @@ module.exports.processEmails = (config) => {
   let removeStyleTags = typeof inlineOpts.removeStyleTags !== 'undefined' ? inlineOpts.removeStyleTags : true;
 
   files.map((file) => {
-
+  try {
     let html = fs.readFileSync(file, 'utf8');
 
     if (inlineOpts.enabled) {
@@ -125,5 +125,12 @@ module.exports.processEmails = (config) => {
 
       fs.writeFileSync(plaintextPath, plaintext);
     }
+
+  }
+  catch(err)
+  {
+    console.log("Nothing found to load")
+  }
+
   });
 }

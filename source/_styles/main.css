@@ -4,3 +4,5 @@
 @import "partials/custom-utilities";
 
 @import "tailwindcss/utilities";
+@import "partials/general";
+@import "partials/schedule";

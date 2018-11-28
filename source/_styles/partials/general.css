@@ -1,0 +1,21 @@
+
+/*general classes*/
+.bt-1-s-g{
+  border-top: 1px solid config('colors.grey_dbe');
+}
+
+.br-1-s-g{
+  border-right:1px solid config('colors.grey_dbe');
+}
+
+.bb-1-s-g{
+  border-bottom:1px solid config('colors.grey_dbe');
+}
+
+.justify-inherit{
+  justify-content: inherit;
+}
+
+.text-16{
+  font-size: 16px;
+}

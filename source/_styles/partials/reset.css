@@ -13,6 +13,7 @@ body {
   @apply m-0 p-0 w-full;
   word-break: break-word;
   -webkit-font-smoothing: antialiased;
+  color: config('colors.grey_ec4');
 }
 
 img {

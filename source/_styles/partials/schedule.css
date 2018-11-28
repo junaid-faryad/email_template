@@ -1,0 +1,4 @@
+.schedule tbody{
+  display: table;
+  overflow: hidden;
+}

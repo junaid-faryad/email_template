@@ -116,6 +116,10 @@ let colors = {
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef',
+
+  'primary': 'rgb(139, 42, 141)',
+  'grey_dbe':  '#dbe3e9',
+  'grey_ec4':  '#3C454B',
 }
 
 /*

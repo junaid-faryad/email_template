@@ -1,0 +1,147 @@
+a[x-apple-data-detectors] {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  u ~ div .wrapper {
+    min-width: 100vw;
+  }
+}
+
+.bg-header {
+  background-color: rgb(139, 42, 141);
+}
+
+.bg-header-gradient {
+  background-image: linear-gradient(to top, #b7417f, rgb(139, 42, 141)) !important;
+}
+
+.main-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: blue;
+  text-align: center;
+}
+
+.grey_wrapper_table {
+  border: 2px solid #dbe3e9;
+  border-radius: 12px;
+  background-color: #fcfbfb;
+  width: 95%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.bgFooter {
+  background-color: #f5f9fb;
+}
+
+.icon-wrapper {
+  display: inline-block;
+}
+
+.icon-wrapper .footer-rounded-icon {
+  background-color: #8b2a8d;
+  vertical-align: middle;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer_icon_bg {
+  background-color: #8b2a8d;
+}
+
+.footer_icon_color {
+  color: #fff;
+}
+
+.footer_link_color {
+  color: #0093d2;
+}
+
+.grey-color {
+  color: #434c52;
+}
+
+.row-bottom-border {
+  border-bottom: 1px solid #dbe3e9;
+}
+
+.custom-dark-grey {
+  color: #4b5359;
+}
+
+.line-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.line-wrapper .line {
+  width: 100%;
+  border-bottom: 2px solid #777;
+  top: 7px;
+}
+
+.line-wrapper .dot {
+  background-color: #777;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 4px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  text-align: center;
+}
+
+.dot .text-upper {
+  position: absolute;
+  width: 50px;
+  top: -15px;
+  left: -15px;
+}
+
+.dot .text-bottom {
+  position: absolute;
+  width: 50px;
+  bottom: -15px;
+  left: -15px;
+}
+
+/*verticle line wrapper*/
+
+.verticle-line-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.verticle-line-wrapper .line {
+  width: 100%;
+  height: 100%;
+  border-left: 2px solid #3c454b;
+  position: relative;
+  top: 5px;
+  left: 11px;
+}
+
+.verticle-line-wrapper .dot {
+  background-color: #3c454b;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
