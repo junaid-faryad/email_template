@@ -294,6 +294,6 @@ return [
     'production' => false,
     'build' => [
         'source' => 'source',
-        'destination' => 'build_local',
+        'destination' => 'fly',
     ],
 ];

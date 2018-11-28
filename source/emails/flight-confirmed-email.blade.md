@@ -8,7 +8,7 @@
             <table class="w-full bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
             	<tr>
             		<td class="pl-16 all-py-8">
-	            		<h1 class="purple-color"> Flight Confirmed!</h1>
+	            		<h1 class="text-primary"> Flight Confirmed!</h1>
 	            	</td>
             	</tr>
             	<tr>
@@ -18,7 +18,7 @@
             	</tr>
             	<tr>
             		<td class="pl-16 pt-16">
-	            		<span class="purple-color text-base font-semibold"> Thank you for Booking with Fly.me </span>
+	            		<span class="text-primary text-base font-semibold"> Thank you for Booking with Fly.me </span>
 	            	</td>
 	            	<td class="pr-16 pt-16 grey-color">
 	            		<span> Your San Francisco - London Round</span>
@@ -34,7 +34,7 @@
               <tbody class="grey_wrapper_table">
                 <tr>
                   <th COLSPAN=2 class="pl-12">
-                    <p class="purple-color text-left text-base font-semibold"> Confirmation Numbers </p>
+                    <p class="text-primary text-left text-base font-semibold"> Confirmation Numbers </p>
                   </th>
                 </tr>
                 <tr>
@@ -47,10 +47,10 @@
                 </tr>
                 <tr>
                   <td class="pl-16 pt-8">
-                    <span class="purple-color m-0 text-base"> 5674133</span>
+                    <span class="text-primary m-0 text-base"> 5674133</span>
                   </td>
                   <td class="pt-8 pr-16">
-                    <span class="pr-16 m-0 purple-color m-0 text-base"> XXXXXX </span>
+                    <span class="pr-16 m-0 text-primary m-0 text-base"> XXXXXX </span>
                   </td>
                 </tr>
                 <tr>
@@ -60,7 +60,7 @@
                 </tr>
                 <tr>
                   <td class="pl-16 pt-8 pb-16">
-                    <span class="purple-color">40005673</span>
+                    <span class="text-primary">40005673</span>
                   </td>
                 </tr>
               </tbody>
@@ -76,12 +76,12 @@
               </tr>
             </table>
             <!-- Buttons Ended -->
-            @include('_partials.centerSection')
+            @include('_partials.schedule')
             <!-- Your Traverler Started -->
             <table class="w-full bg-white confirmation_numbers pt-32" cellpadding="0" cellspacing="0" role="presentation">
               <tbody class="grey_wrapper_table">
                 <tr>
-                  <td class="pt-12 pl-16 h-20 text-left text-xl purple-color"> Your Travelers </td>
+                  <td class="pt-12 pl-16 h-20 text-left text-xl text-primary"> Your Travelers </td>
                 </tr>
                 <tr>
                   <td class="pt-12 pl-16 grey-color"> <span>John Tobias Smith Jr.</span></td>
@@ -96,7 +96,7 @@
             <table class="w-full bg-white confirmation_numbers pt-32" cellpadding="0" cellspacing="0" role="presentation">
               <tbody class="grey_wrapper_table">
                 <tr>
-                  <td class="pt-12 pb-12 pl-16 m-0 leading-20 h-20 text-left text-xl purple-color"> Summary of Charges </td>
+                  <td class="pt-12 pb-12 pl-16 m-0 leading-20 h-20 text-left text-xl text-primary"> Summary of Charges </td>
                 </tr>
                 <tr class="flex justify-between">
                   <td>
@@ -130,7 +130,7 @@
             <table class="w-full pt-24 bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
             	<tr>
             		<td class="pl-32 m-0">
-	            		<p class="text-lg font-bold purple-color mb-0"> Need to Know</p>
+	            		<p class="text-lg font-bold text-primary mb-0"> Need to Know</p>
 	            	</td>
             	</tr>
             	<tr>
@@ -142,7 +142,7 @@
             <table class="w-full pt-12 bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
             	<tr>
             		<td class="pl-32 m-0">
-	            		<p class="text-lg font-bold purple-color mb-0"> Airline Regulations</p>
+	            		<p class="text-lg font-bold text-primary mb-0"> Airline Regulations</p>
 	            	</td>
             	</tr>
             	<tr>
@@ -154,7 +154,7 @@
             <table class="w-full pb-20 bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
               <tr>
                 <td class="pl-32">
-                  <p class="purple-color text-lg font-bold mb-0"> Need Help? </p>
+                  <p class="text-primary text-lg font-bold mb-0"> Need Help? </p>
                 </td>
               </tr>
               <tr>

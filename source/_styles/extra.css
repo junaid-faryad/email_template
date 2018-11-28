@@ -5,12 +5,15 @@ a[x-apple-data-detectors] {
 @screen sm {
   u ~ div .wrapper {min-width: 100vw;}
 }
+
 .bg-header{
 	background-color: rgb(139, 42, 141);
 }
+
 .bg-header-gradient {
   background-image: linear-gradient(to top, #B7417F, rgb(139, 42, 141)) !important;
 }
+
 .main-footer{
    position: fixed;
    left: 0;
@@ -18,13 +21,7 @@ a[x-apple-data-detectors] {
    background-color: blue;
    text-align: center;
 }
-.purple-color {
-  color: rgb(139, 42, 141) !important;
-}
-.confirmation_numbers tbody{
-  display: table;
-  overflow: hidden;
-}
+
 .grey_wrapper_table{
   border: 2px solid #dbe3e9;
   border-radius: 12px;
@@ -33,6 +30,7 @@ a[x-apple-data-detectors] {
   margin-left: 15px;
   margin-right: 15px;
 }
+
 .bgFooter{
   background-color: #F5F9FB;
 }
@@ -66,9 +64,11 @@ a[x-apple-data-detectors] {
 .custom-dark-grey{
   color: #4B5359;
 }
+
 .line-wrapper{
   display:flex;
   justify-content:space-between;
+  padding: 10px 0px;
 }
 .line-wrapper .line{
   width:100%;
@@ -82,4 +82,50 @@ a[x-apple-data-detectors] {
   border-radius:50%;
   top:4px;
   position:relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  text-align: center;
+}
+
+.dot .text-upper{
+  position: absolute;
+  width: 50px;
+  top: -15px;
+  left: -15px;
+}
+
+.dot .text-bottom{
+  position: absolute;
+  width: 50px;
+  bottom: -15px;
+  left: -15px;
+}
+
+/*verticle line wrapper*/
+.verticle-line-wrapper{
+  display:flex;
+  justify-content:space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.verticle-line-wrapper .line{
+  width:100%;
+  height:100%;
+  border-left:2px solid #3C454B;
+  position: relative;
+  top:5px;
+  left: 11px;
+}
+.verticle-line-wrapper .dot{
+  background-color: #3C454B;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }

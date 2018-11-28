@@ -4,10 +4,12 @@
       <table class="w-600 sm-w-full" cellpadding="0" cellspacing="0" role="presentation">
         <tr>
           <td align="left" class="px-24">
+
             @include('_partials.header')
+
             <table class="w-full bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
               <tr>
-                  <td><p class="pl-16 purple-color text-2xl font-semibold"> Flight Cancellation Confirmation</p></td>
+                  <td><p class="pl-16 text-primary text-2xl font-semibold"> Flight Cancellation Confirmation</p></td>
               </tr>
               <tr>
                   <td><p class="pl-16 text-lg font-semibold mb-0 text-grey-darkest"> Hello John Smith!</p></td>
@@ -16,11 +18,12 @@
                   <td><p class="pl-16 pr-16 text-base grey-color"> We have successfully cancelled the following reservation at your request. No Need to call us to confirm. You can see all the details of your cancelled flight below</p></td>
               </tr>
             </table>
-            <table class="w-full bg-white confirmation_numbers" cellpadding="0" cellspacing="0" role="presentation">
-              <tbody class="grey_wrapper_table">
+
+            <table class="w-full bg-white table overflow-hidden confirmation_numbers" cellpadding="0" cellspacing="0" role="presentation">
+              <tbody class="table overflow-hidden grey_wrapper_table">
                 <tr>
                   <th COLSPAN=2 class="pl-12">
-                    <p class="purple-color text-left text-base font-semibold"> Cancelled Itinerary: San Francisco to London </p>
+                    <p class="text-primary text-left text-base font-semibold"> Cancelled Itinerary: San Francisco to London </p>
                   </th>
                 </tr>
                 <tr>
@@ -33,10 +36,10 @@
                 </tr>
                 <tr>
                   <td class="pl-16 pt-8">
-                    <span class="purple-color m-0 text-base"> Dec 10, 2018 - Dec 14, 2018</span>
+                    <span class="text-primary m-0 text-base"> Dec 10, 2018 - Dec 14, 2018</span>
                   </td>
                   <td class="pt-8 pr-16">
-                    <span class="pr-16 m-0 purple-color m-0 text-base"> 40005673</span>
+                    <span class="pr-16 m-0 text-primary m-0 text-base"> 40005673</span>
                   </td>
                 </tr>
                 <tr>
@@ -49,20 +52,22 @@
                 </tr>
                 <tr>
                   <td class="pl-16 pt-8 pb-16">
-                    <span class="purple-color">$656.00</span>
+                    <span class="text-primary">$656.00</span>
                   </td>
                   <td class="pt-8 pb-16">
-                    <span class="pr-16 m-0 purple-color">5674133</span>
+                    <span class="pr-16 m-0 text-primary">5674133</span>
                   </td>
                 </tr>
               </tbody>
             </table>
-           @include('_partials.centerSection')
+
+            @include('_partials.schedule')
+            
             <!-- Your Traverler Started -->
             <table class="w-full bg-white confirmation_numbers pt-32 pb-32" cellpadding="0" cellspacing="0" role="presentation">
-              <tbody class="grey_wrapper_table">
+              <tbody class="table overflow-hidden grey_wrapper_table">
                 <tr>
-                  <td class="pt-12 pl-16 h-20 text-left text-xl purple-color"> Your Travelers </td>
+                  <td class="pt-12 pl-16 h-20 text-left text-xl text-primary"> Your Travelers </td>
                 </tr>
                 <tr>
                   <td class="pt-12 pl-16 grey-color"> <span>John Tobias Smith Jr.</span></td>
@@ -75,9 +80,9 @@
             <!-- Your Traverler Ended -->
             <!-- Summary of Charges Started -->
             <table class="w-full bg-white confirmation_numbers" cellpadding="0" cellspacing="0" role="presentation">
-              <tbody class="grey_wrapper_table">
+              <tbody class="table overflow-hidden grey_wrapper_table">
                 <tr>
-                  <td class="pt-12 pb-12 pl-16 m-0 leading-20 h-20 text-left text-xl purple-color"> Summary of Charges </td>
+                  <td class="pt-12 pb-12 pl-16 m-0 leading-20 h-20 text-left text-xl text-primary"> Summary of Charges </td>
                 </tr>
                 <tr class="flex justify-between">
                   <td>
@@ -111,7 +116,7 @@
             <table class="w-full pt-24 bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
               <tr>
                 <td class="pl-32">
-                  <p class="text-lg font-bold purple-color"> Need to Know</p>
+                  <p class="text-lg font-bold text-primary"> Need to Know</p>
                 </td>
               </tr>
               <tr>
@@ -124,7 +129,7 @@
             <table class="w-full pb-20 bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
               <tr>
                 <td class="pl-32">
-                  <p class="purple-color text-lg font-bold mb-0"> Need Help? </p>
+                  <p class="text-primary text-lg font-bold mb-0"> Need Help? </p>
                 </td>
               </tr>
               <tr>
