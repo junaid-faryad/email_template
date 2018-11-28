@@ -30,7 +30,7 @@
 	            	</td>
             	</tr>
             </table>
-            <table class="w-full pb-24 bg-white confirmation_numbers" cellpadding="0" cellspacing="0" role="presentation">
+            <table class="w-full pb-24 bg-white flex" cellpadding="0" cellspacing="0" role="presentation">
               <tbody class="grey_wrapper_table">
                 <tr>
                   <th COLSPAN=2 class="pl-12">
@@ -78,7 +78,7 @@
             <!-- Buttons Ended -->
             @include('_partials.schedule')
             <!-- Your Traverler Started -->
-            <table class="w-full bg-white confirmation_numbers pt-32" cellpadding="0" cellspacing="0" role="presentation">
+            <table class="w-full bg-white flex pt-32" cellpadding="0" cellspacing="0" role="presentation">
               <tbody class="grey_wrapper_table">
                 <tr>
                   <td class="pt-12 pl-16 h-20 text-left text-xl text-primary"> Your Travelers </td>
@@ -93,7 +93,7 @@
             </table>
             <!-- Your Traverler Ended -->
             <!-- Summary of Charges Started -->
-            <table class="w-full bg-white confirmation_numbers pt-32" cellpadding="0" cellspacing="0" role="presentation">
+            <table class="w-full bg-white flex pt-32" cellpadding="0" cellspacing="0" role="presentation">
               <tbody class="grey_wrapper_table">
                 <tr>
                   <td class="pt-12 pb-12 pl-16 m-0 leading-20 h-20 text-left text-xl text-primary"> Summary of Charges </td>
