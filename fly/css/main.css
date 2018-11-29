@@ -7650,6 +7650,10 @@ img {
   font-size: 16px;
 }
 
+.w-60p {
+  width: 45%;
+}
+
 .schedule tbody {
   display: table;
   overflow: hidden;

@@ -29,10 +29,10 @@
   <tr class="h-56 w-256">
     <td class="px-40">
       <div align="center">
-        <a href="#" class="px-10 h-24 no-underline footer_link_color">About</a>
-        <a href="#" class="px-10 h-24 no-underline footer_link_color" >FAQs</a>
-        <a href="#" class="px-10 h-24 no-underline footer_link_color">Help</a>
-        <a href="#" class="px-10 h-24 no-underline footer_link_color">Terms of Service</a>
+        <a href="#" class="text-sm font-normal px-10 h-24 no-underline footer_link_color">About</a>
+        <a href="#" class="text-sm font-normal px-10 h-24 no-underline footer_link_color" >FAQs</a>
+        <a href="#" class="text-sm font-normal px-10 h-24 no-underline footer_link_color">Help</a>
+        <a href="#" class="text-sm font-normal px-10 h-24 no-underline footer_link_color">Terms of Service</a>
       </div>
     </td>
   </tr>

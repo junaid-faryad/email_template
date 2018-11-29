@@ -8,25 +8,25 @@
             <table class="w-full bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
             	<tr>
             		<td class="pl-16 all-py-8">
-	            		<h1 class="text-primary"> Flight Confirmed!</h1>
+	            		<p class="text-primary text-4xl font-semibold"> Flight Confirmed!</p>
 	            	</td>
             	</tr>
             	<tr>
-            		<td class="pl-16 text-grey-darkest">
-	            		<p class="m-0 text-left text-sm font-semibold"> Congratulations John Smith! </p>
+            		<td class="pl-16 grey-text-color">
+	            		<p class="m-0 text-left text-base font-semibold"> Congratulations John Smith! </p>
 	            	</td>
             	</tr>
             	<tr>
             		<td class="pl-16 pt-16">
 	            		<span class="text-primary text-base font-semibold"> Thank you for Booking with Fly.me </span>
 	            	</td>
-	            	<td class="pr-16 pt-16 grey-color">
-	            		<span> Your San Francisco - London Round</span>
+	            	<td class="pr-16 pt-16 grey-text-color">
+	            		<span class="text-base"> Your San Francisco - London Round</span>
 	            	</td>
 	            </tr>
 	            <tr>
 	            	<td class="pb-20 pl-16 pt-4 grey-color">
-	            		<span> trip flight is Confirmed </span>
+	            		<span> trip flight is confirmed </span>
 	            	</td>
             	</tr>
             </table>
@@ -34,15 +34,15 @@
               <tbody class="grey_wrapper_table">
                 <tr>
                   <th COLSPAN=2 class="pl-12">
-                    <p class="text-primary text-left text-base font-semibold"> Confirmation Numbers </p>
+                    <p class="text-primary text-left text-xl font-medium"> Confirmation Numbers </p>
                   </th>
                 </tr>
                 <tr>
                   <td>
-                    <span class="pl-16 m-0 text-sm font-semibold text-grey-darkest"> American Airlines Reference # </span>
+                    <span class="pl-16 m-0 text-sm font-semibold grey-color"> American Airlines Reference # </span>
                   </td>
-                  <td>
-                    <span class="pr-16 m-0 text-sm font-semibold text-grey-darkest"> Other Airline Reference #</span>
+                  <td class="text-right">
+                    <span class="pl-64 m-0 text-sm font-semibold grey-color"> Other Airline Reference #</span>
                   </td>
                 </tr>
                 <tr>
@@ -50,7 +50,7 @@
                     <span class="text-primary m-0 text-base"> 5674133</span>
                   </td>
                   <td class="pt-8 pr-16">
-                    <span class="pr-16 m-0 text-primary m-0 text-base"> XXXXXX </span>
+                    <span class="pl-64 m-0 text-primary text-base"> XXXXXX </span>
                   </td>
                 </tr>
                 <tr>
@@ -65,29 +65,31 @@
                 </tr>
               </tbody>
             </table>
-            <table class="w-full bg-white" cellpadding="0" cellspacing="0" role="presentation">
-              <tr>
-                <th class="bg-blue all-hover-bg-blue-dark rounded-full" style="mso-padding-alt: 7px 64px 14px;">
-                  <a href="#" class="text-white inline-block text-base leading-full py-14 px-48 no-underline">Find Hotels</a>
-                </th>
-                <th class="bg-white all-hover-bg-white border-2 border-blue rounded-full" style="mso-padding-alt: 7px 64px 14px;">
-                  <a href="#" class="text-blue inline-block text-base leading-full py-14 px-48 no-underline">View Itinerary</a>
-                </th>
-              </tr>
+            <table class="w-full bg-white px-16" cellpadding="0" cellspacing="0" role="presentation">
+              <tbody>
+                <tr class="flex justify-center">
+                  <td class="mx-12">                    
+                    <button class="bg-blue-button text-base text-white rounded-full px-32 py-12 leading-normal border border-blue hover:bg-purple hover:text-white leading-full">Find Hotels</button>
+                  </td>
+                  <td class="mx-12">
+                    <button class="text-base rounded-full px-32 py-12 leading-normal bg-white border border-blue white-button hover:bg-purple hover:text-white leading-full">View Itinerary</button>
+                  </td>
+                </tr>
+              </tbody>
             </table>
             <!-- Buttons Ended -->
             @include('_partials.schedule')
             <!-- Your Traverler Started -->
-            <table class="w-full bg-white flex pt-32" cellpadding="0" cellspacing="0" role="presentation">
+            <table class="w-full bg-white flex" cellpadding="0" cellspacing="0" role="presentation">
               <tbody class="grey_wrapper_table">
                 <tr>
                   <td class="pt-12 pl-16 h-20 text-left text-xl text-primary"> Your Travelers </td>
                 </tr>
                 <tr>
-                  <td class="pt-12 pl-16 grey-color"> <span>John Tobias Smith Jr.</span></td>
+                  <td class="pt-12 pl-16 grey-color"> <span class="text-base">John Tobias Smith Jr.</span></td>
                 </tr>
                 <tr>
-                  <td class="pt-12 pb-16 pl-16 grey-color"> <span>Allie Smith</span> </td>
+                  <td class="pt-12 pb-16 pl-16 grey-color"> <span class="text-base">Allie Smith</span> </td>
                 </tr>
               </tbody>
             </table>
@@ -130,7 +132,7 @@
             <table class="w-full pt-24 bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
             	<tr>
             		<td class="pl-32 m-0">
-	            		<p class="text-lg font-bold text-primary mb-0"> Need to Know</p>
+	            		<p class="text-base font-bold text-primary mb-0"> Need to Know</p>
 	            	</td>
             	</tr>
             	<tr>
@@ -142,7 +144,7 @@
             <table class="w-full pt-12 bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
             	<tr>
             		<td class="pl-32 m-0">
-	            		<p class="text-lg font-bold text-primary mb-0"> Airline Regulations</p>
+	            		<p class="text-base font-bold text-primary mb-0"> Airline Regulations</p>
 	            	</td>
             	</tr>
             	<tr>
@@ -154,7 +156,7 @@
             <table class="w-full pb-20 bg-white rounded-sm shadow" cellpadding="0" cellspacing="0" role="presentation">
               <tr>
                 <td class="pl-32">
-                  <p class="text-primary text-lg font-bold mb-0"> Need Help? </p>
+                  <p class="text-primary text-base font-bold mb-0"> Need Help? </p>
                 </td>
               </tr>
               <tr>

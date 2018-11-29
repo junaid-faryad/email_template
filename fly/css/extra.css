@@ -61,11 +61,11 @@ a[x-apple-data-detectors] {
 }
 
 .footer_link_color {
-  color: #0093d2;
+  color: #2e96c9;
 }
 
 .grey-color {
-  color: #434c52;
+  color: #3c454b;
 }
 
 .row-bottom-border {
@@ -144,4 +144,58 @@ a[x-apple-data-detectors] {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+/*verticle line wrapper*/
+
+.verticle-line-wrapperr {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.verticle-line-wrapperr .linee {
+  width: 100%;
+  height: 100%;
+  border-left: 2px solid #3c454b;
+  position: relative;
+  top: -2px;
+  left: 11px;
+}
+
+.verticle-line-wrapperr .dott {
+  background-color: #3c454b;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.pl-36 {
+  padding-left: 36px !important;
+}
+
+.grey-text-color {
+  color: #3c454b !important;
+}
+
+.bg-blue-button {
+  background-color: #2e96c9 !important;
+}
+
+.white-button {
+  color: #2e96c9 !important;
+}
+
+.text-2xl-custom {
+  font-size: 28px !important;
+}
+
+.custom-padding {
+  padding-left: 72px !important;
 }
