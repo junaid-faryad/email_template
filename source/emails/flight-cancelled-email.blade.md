@@ -79,31 +79,31 @@
                 <tr>
                   <td class="pt-12 pb-12 pl-16 m-0 leading-20 h-20 text-left text-xl text-primary"> Summary of Charges </td>
                 </tr>
-                <tr class="flex justify-between">
+                <tr class="flex-space-between">
                   <td>
-                    <span class="pl-16 m-0 h-14 text-left text-sm grey-color">Base Fare</span>
+                    <span class="flex-space-between-item pl-16 m-0 py-4 h-14 text-left text-sm grey-color">Base Fare</span>
                   </td>
-                  <td>
-                    <span class="m-0 pr-16 h-14 text-right text-sm grey-color">$548.00</span>
-                  </td>
-                </tr>
-                <tr class="pl-16 flex justify-between">
-                  <td>
-                    <span class="m-0 h-14 text-left text-sm grey-color">Taxes & Fees</span>
-                  </td>
-                  <td>
-                    <span class="m-0 h-14 pr-16 text-right text-sm grey-color">$108.00</span>
+                  <td class="flex-justify-center-container">
+                    <span class="m-0 h-14 text-sm grey-color">$548.00</span>
                   </td>
                 </tr>
-                <tr class="pl-16 flex justify-between pt-20">
+                <tr class="flex-space-between">
                   <td>
-                    <span class="m-0 h-14 text-left text-sm grey-color">Total Charges</span>
+                    <span class="pl-16 m-0 h-14 text-left text-sm flex-space-between-item grey-color">Taxes & Fees</span>
                   </td>
-                  <td> <span class="m-0 h-14 pr-16 text-right text-sm grey-color">$656.00</span></td>
+                  <td class="flex-justify-center-container">
+                    <span class="m-0 h-14 text-sm grey-color">$108.00</span>
+                  </td>
                 </tr>
-                <tr class="pl-16 mb-16 flex justify-between">
-                  <td> <span class="m-0 h-14 font-bold text-left text-sm grey-color">Refund to Original Form of Payments</span></td>
-                  <td> <span class="m-0 h-14 pr-16 font-bold text-right text-sm grey-color">$656.00</span> </td>
+                <tr class="flex-space-between">
+                  <td class="pt-16">
+                    <span class="pl-16 m-0 h-14 text-left text-sm flex-space-between-item grey-color">Total Charges</span>
+                  </td>
+                  <td class="pt-16 flex-justify-center-container"> <span class="m-0 h-14 text-sm grey-color">$656.00</span></td>
+                </tr>
+                <tr class="flex-space-between">
+                  <td class="pb-20"> <span class="flex-space-between-item pl-16 m-0 h-14 font-bold text-left text-sm grey-color">Refund to Original Form of Payments</span></td>
+                  <td class="flex-justify-center-container pb-20"><span class="font-bold text-sm grey-color">$656.00</span> </td>
                 </tr>
               </tbody>
             </table>

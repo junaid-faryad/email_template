@@ -6,8 +6,8 @@
     </td>
   </tr>
   <tr class="h-40"><td>&zwnj;</td></tr>
-  <tr class="flex justify-center">
-    <td class="text-xs text-grey-dark">
+  <tr class="flex-justify-center-container">
+    <td class="text-xs text-grey-dark flex-justify-center-item">
       <div class="icon-wrapper m-4 mt-0 mb-0">
         <div class="rounded-full w-40 h-40 footer-rounded-icon">
           <img class="footer_icon_bg mx-auto footer_icon_color" src="img/w-fb-24.png" alt="">

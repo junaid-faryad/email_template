@@ -182,7 +182,7 @@ return [
         ],
         'cleanup' => [
             'removeUnusedCss' => [
-                'enabled' => true,
+                'enabled' => false,
                 'whitelist' => [
                     ".External*",
                     ".ReadMsgBody",
@@ -210,7 +210,7 @@ return [
         ],
         'prettify' => false,
         'minify' => [
-            'minifyCSS' => true,
+            'minifyCSS' => false,
             'maxLineLength' => false,
             'preserveLineBreaks' => false,
             'collapseWhitespace' => false,

@@ -195,8 +195,8 @@
               </table>
             </td>
           </tr>
-          <tr class="flex flex-row">
-            <td class="flex flex-col">
+          <tr class="flex-row-item">
+            <td class="flex-col-item">
               <table class="h-full">
                 <tbody class="w-full">
                   <tr>
