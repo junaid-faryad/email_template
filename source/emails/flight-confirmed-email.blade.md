@@ -80,8 +80,8 @@
             <!-- Buttons Ended -->
             @include('_partials.schedule')
             <!-- Your Traverler Started -->
-            <table class="w-full bg-white flex" cellpadding="0" cellspacing="0" role="presentation">
-              <tbody class="grey_wrapper_table">
+            <table class="w-full bg-white" cellpadding="0" cellspacing="0" role="presentation">
+              <tbody class="table overflow-hidden grey_wrapper_table">
                 <tr>
                   <td class="pt-12 pl-16 h-20 text-left text-xl text-primary"> Your Travelers </td>
                 </tr>

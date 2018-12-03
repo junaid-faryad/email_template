@@ -64,100 +64,6 @@ a[x-apple-data-detectors] {
 .custom-dark-grey{
   color: #4B5359;
 }
-
-.line-wrapper{
-  display:flex;
-  justify-content:space-between;
-  padding: 10px 0px;
-}
-.line-wrapper .line{
-  width:100%;
-  border-bottom:2px solid #777;
-  top:7px;
-}
-.line-wrapper .dot{
-  background-color:#777;
-  width:10px;
-  height:10px;
-  border-radius:50%;
-  top:4px;
-  position:relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 20%;
-  text-align: center;
-}
-
-.dot .text-upper{
-  position: absolute;
-  width: 50px;
-  top: -15px;
-  left: -15px;
-}
-
-.dot .text-bottom{
-  position: absolute;
-  width: 50px;
-  bottom: -15px;
-  left: -15px;
-}
-
-/*verticle line wrapper*/
-.verticle-line-wrapper{
-  display:flex;
-  justify-content:space-between;
-  flex-direction: column;
-  height: 100%;
-}
-.verticle-line-wrapper .line{
-  width:100%;
-  height:100%;
-  border-left:2px solid #3C454B;
-  position: relative;
-  top:5px;
-  left: 11px;
-}
-.verticle-line-wrapper .dot{
-  background-color: #3C454B;
-  width:10px;
-  height:10px;
-  border-radius:50%;
-  position:relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-/*verticle line wrapper*/
-.verticle-line-wrapperr{
-  display:flex;
-  justify-content:space-between;
-  flex-direction: column;
-  height: 100%;
-}
-.verticle-line-wrapperr .linee{
-  width:100%;
-  height:100%;
-  border-left:2px solid #3C454B;
-  position: relative;
-  top:-2px;
-  left: 11px;
-}
-.verticle-line-wrapperr .dott{
-  background-color: #3C454B;
-  width:10px;
-  height:10px;
-  border-radius:50%;
-  position:relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-
 .pl-36{
   padding-left: 36px !important;
 }
@@ -174,7 +80,7 @@ a[x-apple-data-detectors] {
   font-size: 28px !important;
 }
 .custom-padding{
-  padding-left: 72px !important;
+  padding-left: 154px !important;
 }
 .flex-col-item{
   display: block !important;
@@ -227,4 +133,110 @@ a[x-apple-data-detectors] {
 .content-end-item {
   display: inline-block !important;
 }
-/*Justify Left Alternate*/
+/*Flex Auto Alternate*/
+.flex-auto-container {
+  display: table;
+}
+
+.flex-auto-item {
+  display: table-cell;
+}
+
+.flex-auto-item-grow {
+  width: 100%;
+}
+.pr-54{
+  padding-right: 58px !important;
+}
+.vertical-line{
+  margin-left: 12px !important;
+  height:106px; 
+  width:0px; 
+  position:relative; 
+  border-left: 2px solid #3C454B;
+  margin-bottom: -4px;
+}
+.vvertical-line{
+  margin-top: -4px;
+  margin-left: 12px !important;
+  height:129px; 
+  width:0px; 
+  position:relative; 
+  border-left: 2px solid #3C454B;
+}
+.bottom-vertical-line{
+  margin-left: 12px !important;
+  height:96px; 
+  width:0px; 
+  position:relative; 
+  border-left: 2px solid #3C454B;
+}
+.bottom-border{
+  width: 180px !important; 
+  position:relative; 
+  border-bottom: 2px solid #7E94A3;
+}
+.left-bottom-border{
+  width: 90px !important; 
+  position:relative; 
+  border-bottom: 2px solid #7E94A3;
+}
+.right-bottom-border{
+  width: 90px !important; 
+  position:relative; 
+  border-bottom: 2px solid #7E94A3;
+}
+.custom-dot {
+  margin-top: -4px;
+  margin-left: 9px !important;
+  height: 10px;
+  width: 10px;
+  background-color: #3C454B;
+  border-radius: 50%;
+  display: inline-block;
+}
+.custom-dott {
+  margin-top: 14px;
+  margin-left: 9px !important;
+  height: 10px;
+  width: 10px;
+  background-color: #3C454B;
+  border-radius: 50%;
+  display: inline-block;
+}
+.time-adjustment{
+  margin-left: -22px !important;
+  margin-right: -22px !important
+}
+.horizontal-dot{
+  background-color: #7E94A3;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.schedule-box-width{
+  width: 465px !important;
+}
+.div-border-top{
+  border-top: 1px solid #dbe3e9;;
+}
+
+.div-border-right{
+  border-right:1px solid #dbe3e9;;
+}
+
+.main-div-border-bottom{
+  border-bottom:1px solid #dbe3e9;;
+}
+
+.justify-inherit{
+  justify-content: inherit;
+}
+
+.text-16{
+  font-size: 16px;
+}
+.w-60p{
+  width: 45%;
+}
